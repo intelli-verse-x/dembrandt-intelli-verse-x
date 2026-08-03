@@ -30,8 +30,6 @@ coverage/
 skills-lock.json
 
 # Environment
-.env
-.env.local
 
 # Logs
 *.log
@@ -39,3 +37,4 @@ npm-debug.log*
 
 # OS
 .DS_Store
+config.bat
