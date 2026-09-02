@@ -1,9 +1,5 @@
 import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-
 export default tseslint.config(
   {
     ignores: ['dist/**', 'node_modules/**', 'output/**', 'test/golden/**', 'test/gold/**', 'test/scores/**'],
@@ -68,4 +64,3 @@ export default tseslint.config(
     rules: { '@typescript-eslint/no-explicit-any': 'off' },
   },
 );
-
